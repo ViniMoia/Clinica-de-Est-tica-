@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 90" width="100%" height="100%" fill="none">
+    <defs>
+        <linearGradient id="goldGradFull" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#E8CCA4"/>
+            <stop offset="35%" stop-color="#C59B27"/>
+            <stop offset="70%" stop-color="#B38E5D"/>
+            <stop offset="100%" stop-color="#8C6834"/>
+        </linearGradient>
+        <linearGradient id="roseGlowFull" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#F2DFD7"/>
+            <stop offset="50%" stop-color="#DFB8A6"/>
+            <stop offset="100%" stop-color="#C59B27"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Symbol Group -->
+    <g transform="translate(5, 5)">
+        <circle cx="40" cy="40" r="38" fill="#FAF6F0" stroke="url(#goldGradFull)" stroke-width="1" stroke-opacity="0.3"/>
+        <circle cx="40" cy="40" r="33" stroke="url(#goldGradFull)" stroke-width="0.7" stroke-dasharray="2 3" stroke-opacity="0.5"/>
+        
+        <!-- Left Wing/Curve -->
+        <path d="M40 12 C30 18 20 28 20 42 C20 54 30 62 38 66 C36 61 36 56 36 51 C30 49 26 44 26 37 C26 29 33 22 40 18 Z" 
+              fill="url(#goldGradFull)" opacity="0.9"/>
+        <!-- Right Wing/Curve -->
+        <path d="M40 12 C50 18 60 28 60 42 C60 54 50 62 42 66 C44 61 44 56 44 51 C50 49 54 44 54 37 C54 29 47 22 40 18 Z" 
+              fill="url(#goldGradFull)" opacity="0.9"/>
+        <!-- Central Drop -->
+        <path d="M40 18 C43 28 48 38 40 54 C32 38 37 28 40 18 Z" 
+              fill="url(#roseGlowFull)"/>
+        <!-- Sparkles -->
+        <circle cx="40" cy="14" r="2" fill="#E8CCA4"/>
+        <circle cx="40" cy="68" r="1.5" fill="#C59B27"/>
+        <circle cx="40" cy="37" r="1.8" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Brand Typography Group -->
+    <g transform="translate(100, 15)">
+        <!-- JOSY CLAIR -->
+        <text x="0" y="34" font-family="'Inter', -apple-system, sans-serif" font-size="28" font-weight="800" letter-spacing="4" fill="#1C1917">
+            JOSY <tspan font-weight="300" fill="#B38E5D">CLAIR</tspan>
+        </text>
+        
+        <!-- Subtle divider line with diamond -->
+        <line x1="0" y1="46" x2="260" y2="46" stroke="#DFB8A6" stroke-width="0.8" stroke-opacity="0.6"/>
+        <circle cx="130" cy="46" r="2" fill="#C59B27"/>
+
+        <!-- ESTÉTICA AVANÇADA -->
+        <text x="1" y="62" font-family="'Inter', monospace, sans-serif" font-size="9" font-weight="600" letter-spacing="6" fill="#8C6834">
+            ESTÉTICA AVANÇADA &amp; HARMONIZAÇÃO
+        </text>
+    </g>
+</svg>
+
